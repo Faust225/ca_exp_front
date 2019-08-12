@@ -1,0 +1,71 @@
+body {
+	overflow: hidden;
+}
+
+header,
+.main-wrapper {
+	background-color: #a2a7aa;
+}
+
+.header-wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	align-items: center;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.header-wrapper img {
+	max-height: 50px;
+}
+
+nav a {
+	text-decoration: none;
+	padding-right: 10px;
+	color: blue;
+}
+
+nav a:nth-last-child(1) {
+	padding-right: 0;
+}
+
+/* main */
+
+main {
+	min-height: 90vh;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/8b/Libya_4608_Idehan_Ubari_Dunes_Luca_Galuzzi_2007.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h1,
+label {
+	color: #fff;
+}
+
+label {
+	display: block;
+}
+
+input[type=submit] {
+	display: block;
+}
+
+input:not([type=submit]) {
+	margin-bottom: 10px;
+}
+
+.main-wrapper {
+	padding: 20px;
+	width: 80%;
+}
